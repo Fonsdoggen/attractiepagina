@@ -177,8 +177,37 @@ th{
     text-align: left;
 }
 
+/* MAIN */
+.attracties{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 27px;
+  grid-auto-flow: dense;
+}
 
+.attractie{
+  border: 1px solid black;
+  border-radius: 25px;
+}
 
+.attractie p{
+  padding-left: 5px;
+}
+
+.fastpass{
+  grid-column: 2 span;
+}
+
+.big{
+  background-image: url(../img/attracties/chris-slupski-QLqIqIhMiNs-unsplash.jpg);
+}
+
+.small{
+  width: 260px;
+  height: auto;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
 
 
 /* ==========================================================================

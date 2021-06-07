@@ -25,7 +25,28 @@ require_once 'admin/backend/config.php';
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia modi dolore magnam! Iste libero voluptatum autem, sapiente ullam earum nostrum sed magnam vel laboriosam quibusdam, officia, esse vitae dignissimos nulla?
         </aside>
         <main>
-            <!-- hier komen de attractiekaartjes -->
+            <div class="attracties">
+                <div class="attractie">
+                    <div>
+                        <img class="small" src="img/attracties/brandon-hoogenboom-P0MX2XCqbFc-unsplash.jpg" alt="Waterpretpark glijbanen">
+                    </div>
+                        <div>
+                            <p class="special">ADVENTURELAND</p>
+                            <h1>Waterpretpark</h1>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum consequatur fuga eius qui iure repellendus, sit at asperiores harum culpa inventore placeat impedit adipisci magni fugiat! Itaque iure incidunt amet.</p>
+                    </div>
+                <div class="attractie fastpass">
+                    <div>
+                        <p class="big"></p>
+                    </div>
+                    <div>
+                        <p class="special">ADVENTURELAND</p>
+                        <H1>Draaimolen</H1>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quas magnam aperiam rerum ipsa commodi id facilis, nobis ex sapiente distinctio adipisci voluptatum nam nulla architecto maiores, sed aliquid tempore?</p>
+                </div>
+            </div>
         </main>
     </div>
 
